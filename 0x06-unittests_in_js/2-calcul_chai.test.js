@@ -33,5 +33,3 @@ describe('calculateNumber', () => {
     });
 });
 });
-
-export default calculateNumber;
