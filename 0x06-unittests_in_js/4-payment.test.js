@@ -1,7 +1,7 @@
-import { expect } from 'chai';
-import sinon from 'sinon';
-import Utils from './utils.js';
-import sendPaymentRequestToApi from './4-payment.js';
+const expect = require('chai').expect;
+const sinon = require('sinon');
+const Utils = require('./utils.js')
+const sendPaymentRequestToApi = require('4-payment')
 
 describe('sendPaymentRequestToApi', () => {
   it('should stub Utils.calculateNumber and verify behavior', () => {
