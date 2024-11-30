@@ -9,4 +9,3 @@ const sendPaymentRequestToApi = (totalAmount, totalShipping) => {
 
 
 export default sendPaymentRequestToApi;
-
